@@ -1,7 +1,6 @@
 package com.nithin.jerseytest.EDController;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
 
 @Path("caesar")
 public class Caesar {
