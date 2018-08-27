@@ -20,7 +20,8 @@ public class Application {
         jerseyServlet.setInitParameter(
                 "jersey.config.server.provider.classnames",
                 "com.nithin.jerseytest.test, " +
-                      "com.nithin.jerseytest.EDController.Caesar");
+                      "com.nithin.jerseytest.EDController.Caesar," +
+                        "com.nithin.jerseytest.APICaller.TestAPI");
 
         try {
             jettyServer.start();
